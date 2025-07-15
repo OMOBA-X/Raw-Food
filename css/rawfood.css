@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-    font-family: cursive;
+    font-family: 'DM Sans', sans-serif;
     overflow-x: hidden;
 }
 
@@ -30,7 +32,7 @@ body {
     font-weight: 900;
     font-size: 2.5rem;
     color: rgb(90, 32, 90);
-    font-family: monospace;
+    font-family: 'DM Sans', sans-serif;
 }
 
 /* NAVIGATION */
@@ -89,9 +91,9 @@ body {
 .hero-sub-text {
     font-size: 1.2rem;
     color: rgb(90, 32, 90);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
-    font-weight: lighter;
+    font-weight: light;
     line-height: 2.5;
 }
 
@@ -130,7 +132,7 @@ body {
 .customer,
 .speedy {
     font-size: 1rem;
-    font-family: cursive;
+    font-family: 'DM Sans', sans-serif;
     padding: 20px;
     align-items: center;
     width: 70%;
@@ -161,7 +163,7 @@ body {
     color: rgb(90, 32, 90);
     font-weight: bold;
     font-size: 1.5rem;
-    font-family: cursive;
+    font-family: 'DM Sans', sans-serif;
 }
 
 
@@ -171,7 +173,7 @@ body {
     margin-top: 100px;
     margin-left: 350px;
     font-size: 30px;
-    font-family: cursive;
+    font-family: 'DM Sans', sans-serif;
     text-align: center;
     width: 100%;
 }
@@ -183,7 +185,7 @@ body {
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
     /* justify-content: center; */
-    font-family: cursive;
+    font-family: 'DM Sans', sans-serif;
     padding: 6px;
     width: 100%;
 }
@@ -212,7 +214,7 @@ body {
 .section-c-header {
     margin: 100px auto 30px;
     font-size: 30px;
-    font-family: cursive;
+    font-family: 'DM Sans', sans-serif;
     text-align: center;
     max-width: 1200px;
 }
@@ -222,7 +224,7 @@ body {
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(3, 1fr);
-    font-family: cursive;
+    font-family: 'DM Sans', sans-serif;
     max-width: 1200px;
     margin: auto;
 }
@@ -273,7 +275,7 @@ body {
 
 .header-text {
     font-size: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: bolder;
     text-transform: uppercase;
 }
@@ -294,7 +296,7 @@ body {
     padding: 10px;
     margin: 0 auto;
     font-size: 40px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'DM Sans', sans-serif;
 }
 
 .marquee-wrapper {
@@ -348,7 +350,7 @@ body {
 
 .section-d-header {
     color: rgb(68, 18, 68);
-    font-family: cursive;
+    font-family: 'DM Sans', sans-serif;
     font-size: 40px;
 }
 
@@ -381,7 +383,7 @@ body {
     color: rgb(250, 237, 250);
     text-align: center;
     padding: 40px 20px;
-    font-family: cursive;
+    font-family: 'DM Sans', sans-serif;
     font-size: 1rem;
     margin-top: 80px;
     border-top-left-radius: 40px;
@@ -420,7 +422,7 @@ body {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
