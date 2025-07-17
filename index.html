@@ -36,6 +36,21 @@
                 <li><a id="special-link" href="#">Sign Up</a></li>
             </ul>
         </div>
+
+        <!-- Hamburger Menu (Mobile View Only) -->
+        <nav class="mobile-nav">
+            <div class="hamburger" id="hamburger">
+                ☰
+            </div>
+            <ul class="mobile-menu" id="mobileMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#sponsors">Sponsors</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#signup" class="signup-btn">Signup</a></li>
+            </ul>
+        </nav>
+
     </header>
 
 
@@ -50,12 +65,12 @@
 
         <div class="section-a">
             <img class="customer-care" src="images/customer-care.jpg"><br>
-            <span class="c">Customer Plan</span><br>
+            <span id="cartoon-text">Customer Plan</span><br>
             <span class="customer">Create you own personalized plan and get on with it</span>
             </span>
 
             <img class="speedy-d" src="images/speedy-delievery-removebg-preview.png"><br>
-            <span class="speedy"><span class="c"> Speedy Delievery</span><br><br>
+            <span class="speedy"><span id="cartoon-text"><div class="overlay">Speedy Delievery</div></span>
                 <span class="once">Once you involve your Cash, Your meal wlll be there in a FLASH!</span>
                 </p>
         </div>
@@ -109,7 +124,7 @@
                 40 Meals<br>
                 Meal Charge from 21st Meal.<br><br>
                 <div class="btn-container">
-                    <button id="submit">Select Plan</button> 
+                    <button id="submit">Select Plan</button>
                 </div>
             </div>
         </div>
@@ -134,15 +149,15 @@
 
             <div class="grid-container">
                 <p class="p1"><img class="grid-img" src="images/man.jpg"><br>
-                    This is the best online store i have ever ordered from.<br>Customer service is top-notch</p>
+                    This is the best online store i have ever ordered from.<br>Customer service is top-notch</p><br><br>
 
                 <p><img class="grid-img" class="grid-img" src="images/woman.jpg"><br>
                     This just keeps getting better. I got the package i ordered in less than 2 days<br>RawFood all the
-                    way</p>
+                    way</p><br><br>
 
                 <p class="p1"><img class="grid-img" src="images/puppy.jpg"><br>
                     Hi RawFood. Sending you greetings all the way form Indonesia, Love your work, btw i got my package.
-                    Thanks!!</p>
+                    Thanks!!</p><br><br>
             </div>
 
             <footer class="footer">
@@ -156,4 +171,15 @@
                 <p>&copy; 2025 <strong>RawFood</strong>. All rights reserved.</p>
                 <br>
                 <p>Grown with care. Delivered with love. 100% fresh veggies, always.</p>
+
             </footer>
+
+
+            <script>
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobileMenu');
+
+  hamburger.addEventListener('click', () => {
+    mobileMenu.classList.toggle('show');
+  });
+</script>
